@@ -37,3 +37,10 @@
  ├── GameServer.Persistance    # Dapper 기반 DB 레포지토리 구현
  ├── GameServer.Shared         # 클라이언트와 공유할 DTO, Enum, Response 모델 등
  └── README.md                 # 프로젝트 설명 문서
+
+## 📑 향후 추가 예정 기능
+	•	Google / Apple / Kakao 소셜 로그인 연동
+	•	WebSocket 서버 샤딩 (맵 별 분산 처리)
+	•	Redis Pub/Sub, MQ 통신 추가
+	•	Docker 배포 및 Kubernetes 대응
+	•	전체 분산 트레이싱 시스템 연동 (ex: OpenTelemetry)
