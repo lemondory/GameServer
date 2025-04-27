@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameServer.Contracts\GameServer.Contracts.csproj" />
+    <ProjectReference Include="..\GameServer.Infrastructure\GameServer.Infrastructure.csproj" />
+    <ProjectReference Include="..\GameServer.Shared\GameServer.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
